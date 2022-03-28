@@ -13,6 +13,7 @@ const lineNum = 2000
 
 func main() {
 	depths := aoc.IntsN(lineNum)
+
 	//for 1st
 	//fmt.Println(day01.NumberOfIncreasedNInterval(depths, 1))
 

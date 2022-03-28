@@ -21,6 +21,14 @@ var example = []string{
 	"01010",
 }
 
-func TestFoo(t *testing.T) {
-	aoc.Report(t, 1, 1)
+func TestPowerConsumption(t *testing.T) {
+	got := PowerConsumption(example)
+	want := 198
+	aoc.Report(t, got, want)
+}
+
+func TestLifeSupport(t *testing.T) {
+	got := LifeSupport(example)
+	want := 230
+	aoc.Report(t, got, want)
 }
